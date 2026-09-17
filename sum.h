@@ -1,8 +1,7 @@
-// main.cpp
-#include <stdio.h>
-#include "sum.h"
+#ifndef SUM_H
+#define SUM_H
 
-int main() {
-	int s = sum(10);
-	printf("result=%d\n", s);
-}
+int sum(int a, int b);
+
+#endif
+
